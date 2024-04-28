@@ -1,0 +1,18 @@
+####cloudwatch
+
+Log events
+–
+Log events are a record of some activity recorded by the application or resource being monitored. 
+The log event record that CloudWatch Logs understands contains two properties: the timestamp of when the event occurred, 
+and the raw event message. Event messages must be UTF-8 encoded.
+
+
+Log streams
+–
+Log streams are a sequence of log events that share the same source. More specifically,
+a log stream is generally intended to represent the sequence of events coming from the application instance or resource being monitored. 
+
+
+Log groups  -
+define groups of log streams that share the same retention, monitoring, and access control settings. Each log stream has to belong to one log group. For example, if you have a separate log stream for the Apache access logs from each host, 
+you can group those log streams into a single log group called MyWebsite.com/Apache/access_log.
