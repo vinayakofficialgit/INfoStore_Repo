@@ -1,5 +1,11 @@
 ####cloudwatch
 
+A metric alarm  ---
+watches a single CloudWatch metric or the result of a math expression based on CloudWatch metrics.
+The alarm performs one or more actions based on the value of the metric or expression relative to a threshold over a number of time periods. 
+
+
+
 Log events
 –
 Log events are a record of some activity recorded by the application or resource being monitored. 
@@ -16,3 +22,8 @@ a log stream is generally intended to represent the sequence of events coming fr
 Log groups  -
 define groups of log streams that share the same retention, monitoring, and access control settings. Each log stream has to belong to one log group. For example, if you have a separate log stream for the Apache access logs from each host, 
 you can group those log streams into a single log group called MyWebsite.com/Apache/access_log.
+
+
+CloudWatch Logs Insights --
+helps you efficiently identify patterns, interactively search, and analyze your log data with bar charts, line charts, and stacked area charts. You can perform queries to efficiently and effectively respond to operational or network issues.
+If an issue occurs, you can use CloudWatch Logs Insights to identify potential causes and validate deployed fixes. 
