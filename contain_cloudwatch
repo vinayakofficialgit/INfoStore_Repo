@@ -1,8 +1,14 @@
 ####cloudwatch
 
+
 A metric alarm  ---
 watches a single CloudWatch metric or the result of a math expression based on CloudWatch metrics.
 The alarm performs one or more actions based on the value of the metric or expression relative to a threshold over a number of time periods. 
+you can Create up to 5,000 alarms per Region per AWS account.
+
+OK   -----means the metric is within the defined threshold.
+ALARM ----means the metric is outside the defined threshold.
+INSUFFICIENT_DATA ------means enough information has yet to be gathered that can determine whether the metric is within or outside of the threshold range.
 
 
 
