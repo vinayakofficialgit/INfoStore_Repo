@@ -1,0 +1,4 @@
+
+#docker top containerid   --------------to chech all porcesses,processid,cpu usage
+#docker stats <container_id_or_name>         --------------to chech all resource usage of container
+#docker rmi $(docker images -qa)            ----------------to delete all image   add  -f to delete forcefully
